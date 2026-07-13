@@ -1,0 +1,7 @@
+{
+    "very_sparse": 0,
+    "sparse": 1,
+    "medium": 2,
+    "dense": 3,
+    "unknown": -1
+}

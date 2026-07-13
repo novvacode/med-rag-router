@@ -1,0 +1,136 @@
+disease,edge_type,target,target_type,notes
+Type 2 Diabetes Mellitus,HAS_SYMPTOM,Polyuria,Symptom,
+Type 2 Diabetes Mellitus,HAS_SYMPTOM,Polydipsia,Symptom,
+Type 2 Diabetes Mellitus,HAS_SYMPTOM,Fatigue,Symptom,
+Type 2 Diabetes Mellitus,INDICATES_LAB,HbA1c,LabTest,
+Type 2 Diabetes Mellitus,INDICATES_LAB,Glucose,LabTest,
+Type 2 Diabetes Mellitus,FIRST_LINE_TREATMENT,Metformin,Drug,
+Type 2 Diabetes Mellitus,CONTRAINDICATED_WITH,Metformin,Drug,contraindicated if eGFR<30
+Essential Hypertension,HAS_SYMPTOM,Headache,Symptom,
+Essential Hypertension,HAS_SYMPTOM,Dizziness,Symptom,
+Essential Hypertension,INDICATES_LAB,Creatinine,LabTest,
+Essential Hypertension,FIRST_LINE_TREATMENT,Lisinopril,Drug,ACE inhibitor
+Essential Hypertension,FIRST_LINE_TREATMENT,Amlodipine,Drug,
+Essential Hypertension,CONTRAINDICATED_WITH,Lisinopril,Drug,contraindicated if hyperkalemia present
+Chronic Kidney Disease Stage 3,HAS_SYMPTOM,Fatigue,Symptom,
+Chronic Kidney Disease Stage 3,HAS_SYMPTOM,Edema,Symptom,
+Chronic Kidney Disease Stage 3,INDICATES_LAB,Creatinine,LabTest,
+Chronic Kidney Disease Stage 3,INDICATES_LAB,eGFR,LabTest,
+Chronic Kidney Disease Stage 3,INDICATES_LAB,Potassium,LabTest,
+Chronic Kidney Disease Stage 3,FIRST_LINE_TREATMENT,Lisinopril,Drug,"ACE inhibitor, first-line for HTN+CKD"
+Chronic Kidney Disease Stage 3,CONTRAINDICATED_WITH,Lisinopril,Drug,contraindicated if hyperkalemia
+Chronic Kidney Disease Stage 3,CONTRAINDICATED_WITH,Metformin,Drug,use with caution/contraindicated if eGFR<30
+Chronic Kidney Disease Stage 3,CONTRAINDICATED_WITH,NSAIDs,Drug,nephrotoxic
+Chronic Kidney Disease Stage 4,HAS_SYMPTOM,Edema,Symptom,
+Chronic Kidney Disease Stage 4,HAS_SYMPTOM,Nausea,Symptom,
+Chronic Kidney Disease Stage 4,INDICATES_LAB,Creatinine,LabTest,
+Chronic Kidney Disease Stage 4,INDICATES_LAB,eGFR,LabTest,
+Chronic Kidney Disease Stage 4,CONTRAINDICATED_WITH,Metformin,Drug,contraindicated eGFR<30
+Chronic Kidney Disease Stage 4,CONTRAINDICATED_WITH,NSAIDs,Drug,nephrotoxic
+Chronic Kidney Disease Stage 5,HAS_SYMPTOM,Edema,Symptom,
+Chronic Kidney Disease Stage 5,HAS_SYMPTOM,Pruritus,Symptom,
+Chronic Kidney Disease Stage 5,INDICATES_LAB,Creatinine,LabTest,
+Chronic Kidney Disease Stage 5,INDICATES_LAB,Potassium,LabTest,
+Chronic Kidney Disease Stage 5,CONTRAINDICATED_WITH,Metformin,Drug,contraindicated
+Chronic Kidney Disease Stage 5,CONTRAINDICATED_WITH,NSAIDs,Drug,nephrotoxic
+Congestive Heart Failure,HAS_SYMPTOM,Dyspnea,Symptom,
+Congestive Heart Failure,HAS_SYMPTOM,Edema,Symptom,
+Congestive Heart Failure,HAS_SYMPTOM,Orthopnea,Symptom,
+Congestive Heart Failure,INDICATES_LAB,BNP,LabTest,
+Congestive Heart Failure,INDICATES_LAB,Sodium,LabTest,
+Congestive Heart Failure,FIRST_LINE_TREATMENT,Furosemide,Drug,
+Congestive Heart Failure,FIRST_LINE_TREATMENT,Lisinopril,Drug,
+Congestive Heart Failure,CONTRAINDICATED_WITH,NSAIDs,Drug,worsens fluid retention
+Atrial Fibrillation,HAS_SYMPTOM,Palpitations,Symptom,
+Atrial Fibrillation,HAS_SYMPTOM,Fatigue,Symptom,
+Atrial Fibrillation,INDICATES_LAB,INR(PT),LabTest,
+Atrial Fibrillation,FIRST_LINE_TREATMENT,Warfarin,Drug,anticoagulation
+Atrial Fibrillation,FIRST_LINE_TREATMENT,Metoprolol,Drug,rate control
+Atrial Fibrillation,CONTRAINDICATED_WITH,Warfarin,Drug,contraindicated with active bleeding
+Coronary Artery Disease,HAS_SYMPTOM,Chest Pain,Symptom,
+Coronary Artery Disease,HAS_SYMPTOM,Dyspnea,Symptom,
+Coronary Artery Disease,INDICATES_LAB,Troponin,LabTest,
+Coronary Artery Disease,INDICATES_LAB,LDL Cholesterol,LabTest,
+Coronary Artery Disease,FIRST_LINE_TREATMENT,Aspirin,Drug,
+Coronary Artery Disease,FIRST_LINE_TREATMENT,Atorvastatin,Drug,
+Chronic Obstructive Pulmonary Disease,HAS_SYMPTOM,Dyspnea,Symptom,
+Chronic Obstructive Pulmonary Disease,HAS_SYMPTOM,Cough,Symptom,
+Chronic Obstructive Pulmonary Disease,HAS_SYMPTOM,Wheezing,Symptom,
+Chronic Obstructive Pulmonary Disease,INDICATES_LAB,Oxygen Saturation,LabTest,
+Chronic Obstructive Pulmonary Disease,FIRST_LINE_TREATMENT,Albuterol,Drug,
+Chronic Obstructive Pulmonary Disease,CONTRAINDICATED_WITH,Metoprolol,Drug,non-selective beta blockers caution
+Pneumonia,HAS_SYMPTOM,Fever,Symptom,
+Pneumonia,HAS_SYMPTOM,Cough,Symptom,
+Pneumonia,HAS_SYMPTOM,Dyspnea,Symptom,
+Pneumonia,INDICATES_LAB,White Blood Cells,LabTest,
+Pneumonia,INDICATES_LAB,Oxygen Saturation,LabTest,
+Pneumonia,FIRST_LINE_TREATMENT,Ceftriaxone,Drug,
+Pneumonia,FIRST_LINE_TREATMENT,Azithromycin,Drug,
+Sepsis,HAS_SYMPTOM,Fever,Symptom,
+Sepsis,HAS_SYMPTOM,Tachycardia,Symptom,
+Sepsis,HAS_SYMPTOM,Hypotension,Symptom,
+Sepsis,INDICATES_LAB,Lactate,LabTest,
+Sepsis,INDICATES_LAB,White Blood Cells,LabTest,
+Sepsis,FIRST_LINE_TREATMENT,Vancomycin,Drug,
+Sepsis,FIRST_LINE_TREATMENT,Piperacillin-Tazobactam,Drug,
+Acute Kidney Injury,HAS_SYMPTOM,Oliguria,Symptom,
+Acute Kidney Injury,HAS_SYMPTOM,Edema,Symptom,
+Acute Kidney Injury,INDICATES_LAB,Creatinine,LabTest,
+Acute Kidney Injury,INDICATES_LAB,BUN,LabTest,
+Acute Kidney Injury,CONTRAINDICATED_WITH,NSAIDs,Drug,nephrotoxic
+Acute Kidney Injury,CONTRAINDICATED_WITH,Metformin,Drug,contraindicated in AKI
+Anemia,HAS_SYMPTOM,Fatigue,Symptom,
+Anemia,HAS_SYMPTOM,Pallor,Symptom,
+Anemia,INDICATES_LAB,Hemoglobin,LabTest,
+Anemia,INDICATES_LAB,Hematocrit,LabTest,
+Anemia,FIRST_LINE_TREATMENT,Ferrous Sulfate,Drug,
+Hyperlipidemia,INDICATES_LAB,LDL Cholesterol,LabTest,
+Hyperlipidemia,INDICATES_LAB,Triglycerides,LabTest,
+Hyperlipidemia,FIRST_LINE_TREATMENT,Atorvastatin,Drug,
+Hypothyroidism,HAS_SYMPTOM,Fatigue,Symptom,
+Hypothyroidism,HAS_SYMPTOM,Weight Gain,Symptom,
+Hypothyroidism,HAS_SYMPTOM,Cold Intolerance,Symptom,
+Hypothyroidism,INDICATES_LAB,TSH,LabTest,
+Hypothyroidism,FIRST_LINE_TREATMENT,Levothyroxine,Drug,
+Cirrhosis of Liver,HAS_SYMPTOM,Ascites,Symptom,
+Cirrhosis of Liver,HAS_SYMPTOM,Jaundice,Symptom,
+Cirrhosis of Liver,INDICATES_LAB,Alanine Aminotransferase (ALT),LabTest,
+Cirrhosis of Liver,INDICATES_LAB,INR(PT),LabTest,
+Cirrhosis of Liver,INDICATES_LAB,Albumin,LabTest,
+Cirrhosis of Liver,FIRST_LINE_TREATMENT,Furosemide,Drug,for ascites
+Cirrhosis of Liver,CONTRAINDICATED_WITH,NSAIDs,Drug,hepatotoxic/renal risk
+Chronic Hepatitis C,HAS_SYMPTOM,Fatigue,Symptom,
+Chronic Hepatitis C,HAS_SYMPTOM,Jaundice,Symptom,
+Chronic Hepatitis C,INDICATES_LAB,Alanine Aminotransferase (ALT),LabTest,
+Chronic Hepatitis C,FIRST_LINE_TREATMENT,Sofosbuvir,Drug,direct-acting antiviral
+Gastroesophageal Reflux Disease,HAS_SYMPTOM,Heartburn,Symptom,
+Gastroesophageal Reflux Disease,HAS_SYMPTOM,Regurgitation,Symptom,
+Gastroesophageal Reflux Disease,FIRST_LINE_TREATMENT,Omeprazole,Drug,
+Peptic Ulcer Disease,HAS_SYMPTOM,Abdominal Pain,Symptom,
+Peptic Ulcer Disease,HAS_SYMPTOM,Nausea,Symptom,
+Peptic Ulcer Disease,FIRST_LINE_TREATMENT,Omeprazole,Drug,
+Peptic Ulcer Disease,CONTRAINDICATED_WITH,NSAIDs,Drug,worsens ulceration
+Deep Vein Thrombosis,HAS_SYMPTOM,Leg Swelling,Symptom,
+Deep Vein Thrombosis,HAS_SYMPTOM,Leg Pain,Symptom,
+Deep Vein Thrombosis,INDICATES_LAB,D-Dimer,LabTest,
+Deep Vein Thrombosis,FIRST_LINE_TREATMENT,Heparin,Drug,
+Deep Vein Thrombosis,FIRST_LINE_TREATMENT,Warfarin,Drug,
+Pulmonary Embolism,HAS_SYMPTOM,Dyspnea,Symptom,
+Pulmonary Embolism,HAS_SYMPTOM,Chest Pain,Symptom,
+Pulmonary Embolism,INDICATES_LAB,D-Dimer,LabTest,
+Pulmonary Embolism,FIRST_LINE_TREATMENT,Heparin,Drug,
+Urinary Tract Infection,HAS_SYMPTOM,Dysuria,Symptom,
+Urinary Tract Infection,HAS_SYMPTOM,Urinary Frequency,Symptom,
+Urinary Tract Infection,INDICATES_LAB,White Blood Cells,LabTest,
+Urinary Tract Infection,FIRST_LINE_TREATMENT,Nitrofurantoin,Drug,
+Urinary Tract Infection,CONTRAINDICATED_WITH,Nitrofurantoin,Drug,contraindicated if eGFR<30
+Major Depressive Disorder,HAS_SYMPTOM,Depressed Mood,Symptom,
+Major Depressive Disorder,HAS_SYMPTOM,Anhedonia,Symptom,
+Major Depressive Disorder,FIRST_LINE_TREATMENT,Sertraline,Drug,
+Bipolar Disorder,HAS_SYMPTOM,Mood Swings,Symptom,
+Bipolar Disorder,HAS_SYMPTOM,Mania,Symptom,
+Bipolar Disorder,FIRST_LINE_TREATMENT,Lithium,Drug,
+Bipolar Disorder,INDICATES_LAB,Creatinine,LabTest,monitor renal function on lithium
+Osteoarthritis,HAS_SYMPTOM,Joint Pain,Symptom,
+Osteoarthritis,HAS_SYMPTOM,Joint Stiffness,Symptom,
+Osteoarthritis,CONTRAINDICATED_WITH,NSAIDs,Drug,caution in CKD patients

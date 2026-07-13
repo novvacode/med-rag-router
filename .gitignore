@@ -1,14 +1,57 @@
+# -------------------------
+# Raw datasets
+# -------------------------
 data/raw/
 data/lakehouse/
-models/
+data/router/
+
+# Retrieval artifacts
 embeddings/
+data/faiss.index
+data/text_chunks.parquet
+data/text_chunk_meta.csv
 
+# Generated outputs
+experiments/results/
+
+# Large model checkpoints
+models/medgemma-4b-qlora/
+models/phi3-mini-qlora/
+models/**/*.safetensors
+models/router/feature_pipeline.pkl
+
+# Router generated artifacts
+models/router/router_predictions.csv
+models/router/error_analysis.csv
+models/router/confusion_matrix.*
+models/router/feature_importance.*
+models/router/production_training.log
+
+# Environment
 .env
+.venv/
+venv/
+env/
 
-**pycache**/
-*.pyc
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
 .ipynb_checkpoints/
 
-*.egg-info/
-dist/
+# IDE
+.vscode/
+.idea/
+
+# Build
 build/
+dist/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
