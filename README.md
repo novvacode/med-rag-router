@@ -398,7 +398,7 @@ The oracle label generation script logs the exact model version, adapter path, s
 - [Google DeepMind](https://deepmind.google) for MedGemma
 - [HuggingFace](https://huggingface.co) for Transformers, PEFT, and TRL
 - [Neo4j](https://neo4j.com) for the graph database
-- Prof. Mushtaq Ahmed (MAHE Bengaluru) for research supervision
+- Prof. Jayita Saha (MAHE Bengaluru) for research supervision
 
 ---
 
